@@ -8,10 +8,10 @@ body {
 }
 
 h1 {
-  color: #7F055F;
+  color: white;
   font-weight: bold;
   font-family:'Montserrat', sans-serif;
-  font-size: 28;
+  font-size: 46;
   line-height: normal;
 }
 
@@ -40,7 +40,7 @@ a:hover {
 .card {
   background: white;
   text-align: center;
-  margin: 22px auto;                         /* White background */
+  margin: 24px auto;                         /* White background */
   padding: 30px;                             /* Internal space */
   border-radius: 4px;                        /* Small radius */
   box-shadow: 0 10px 30px rgba(0,0,0,.1);
@@ -57,9 +57,6 @@ a:hover {
   padding-left: 0px;
 }
 
-.img-circle {
-  border-radius: 50%;
-}
 
 .btn-blue {
   background-color: #8884FF;
@@ -96,5 +93,25 @@ a:hover {
   .container {
     width: 300px;
   }
+}
+
+.background {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.centered-right {
+  position: absolute;
+  top: 50px;
+  right: 25px;
+  text-align: left;
+}
+
+.img-circle {
+  position: absolute;
+  border-radius: 50%;
+  bottom: 0px;
+  left: 16px;
 }
 
